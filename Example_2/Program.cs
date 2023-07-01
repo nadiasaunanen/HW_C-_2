@@ -15,7 +15,7 @@ while (digit > 1000)
     digit /= 10;    
 }
    
-    return digit % 10;       
-    Console.WriteLine($"Третье число в указанном:  {digit}");
+    return digit % 10;
+object value = Console.WriteLine($"Третье число в указанном:  {digit}");
 
 // if (digit < 1000 && digit > 99) digit /= 100; Console.WriteLine($"Третья цифра: {digit}");
