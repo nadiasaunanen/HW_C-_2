@@ -5,32 +5,29 @@
 
 
 
-int tempdigit 
-{
-    Console.Write("Введите число: ");
-    int digit = Convert.ToInt32(Console.ReadLine());
-    returne digit;
 
-int thirdDigit(int digit)
+Console.Write("Введите число: ");
+int digit = Convert.ToInt32(Console.ReadLine());
+
+
+while (digit > 1000)
 {
-    while (digit > 1000) 
-    {
-        digit /= 10;    
+    digit /= 10;  
+}     
     }
     returne digit % 10;
-}
 
 bool temp (int digit)
 {
     if (digit < 100) return false; else return true;
 }
-if (temp (digit) != true)
-{
-    System.Console.WriteLine("Третьей цифры нет");
-}
-else
-{
-    System.Console.WriteLine($"Третья цифра числа {digit} является {fdigit(digit)}");
-}
+    if ((digit) != true)
+    {
+        System.Console.WriteLine("Третьей цифры нет");
+    }
+    else
+    {
+        System.Console.WriteLine($"Третья цифра числа {digit} является {fdigit(digit)}");
+    }
 
 //Не могу понять как написать код
